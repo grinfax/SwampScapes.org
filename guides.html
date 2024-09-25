@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+  
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="dist/css/master.css">
+    <script type="text/javascript" src="dist/js/master.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="dist/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="dist/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="dist/favicons/favicon-16x16.png">
+    <link rel="manifest" href="dist/favicons/site.webmanifest">
+    <link rel="mask-icon" href="dist/favicons/safari-pinned-tab.svg" color="#839b12">
+    <link rel="shortcut icon" href="dist/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="msapplication-config" content="/dist/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#839b12">
+    <title>Films | Swampscape</title>
+    
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvQTkRucJxFbcJ8ikHMdaKzHEaWiBCPhY">
+  </script>
+  <script type="text/javascript" src="dist/js/map.js"></script>
+
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li id="logo"><a href="index.html">SwampScapes</a></li>
+        <li id="dropdown" onclick="toggleMenu()"><i class="fas fa-bars"></i></li>
+        <div id="burgable">
+          <li><a href="guides.html">Films</a></li> 
+          <li><a href="vr.html">VR</a></li>
+          <li><a href="photos.html">Photos</a></li>
+          <li class="hide-touch"><a href="swamp-symphony.html">Sounds</a></li>
+          <li><a href="education.html">Education</a></li>
+        </div>
+      </ul>
+    </nav>
+
+    <div class="main">
+      
+<div id="guidebody">
+
+<div class="MikeOwen guide tab active">
+  <div class="guide-box">
+<img src="dist/images/1.1.jpg" class="full-size "/>
+<button id="" onclick='playFilm("flat.MikeOwen")'
+ontouchstart='playFilm("flat.MikeOwen")' class="play-trailer fas fa-play-circle"></button>
+</div>
+  <div class="indent black">
+    <h2>Fakahatchee</h3>
+    <div class="two-thirds"><p>Mike Owen is a biologist at the Fakahatchee Strand Preserve State Park, the orchid capital of the United States. The Fakahatchee Strand, a forested wetland, is the largest strand swamp in the world. The Everglades itself is 5000 years old. Mike takes us on an exclusive swamp walk to find a ghost orchid and explains how biodiversity is vital to our survival. Use the icons on the right to further explore this place.</p></div>
+    <div class="controls">
+      <ul class="guide-controls">
+        <li><button onclick='playFilm("dimensional.MikeOwen")'
+               ontouchstart='playFilm("dimensional.MikeOwen")'>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 85.5 83"><defs><style>.cls-1{fill:none;stroke-miterlimit:10;stroke-width:8px;}</style></defs><ellipse class="everglade" cx="44.25" cy="40.75" rx="17.25" ry="17.75"/><path class="cls-1 everglade" d="M11.66,55.5a37.49,37.49,0,1,0,.2-15" transform="translate(-4.5 -7)"/><polygon class="everglade" points="7.75 41.15 0 52 15.5 52 7.75 41.15"/></svg>
+            360&deg; Landscape</button></li>
+        <li><button onclick='openMap([&quot;25.9513, -81.3601&quot;])'
+               ontouchstart='openMap([&quot;25.9513, -81.3601&quot;])'>
+            <i class="fas fa-map-marker-alt"></i> Map</button></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="MikeOwen flat overlay">
+  <button onclick='closeOverlay("flat.MikeOwen")'>Close <i class="fas fa-times"></i></button>
+  <div class="popup video">
+    <iframe src="https://player.vimeo.com/video/265106046?app_id=122963" width="100%" height="360" frameborder="0" title="Fakahatchee Swamp_Mike Owen_june27" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  </div>
+</div>
+
+<div class="MikeOwen dimensional overlay">
+  <button onclick='closeOverlay("dimensional.MikeOwen")'>Close <i class="fas fa-times"></i></button>
+  <div class="popup">
+    <iframe src="https://player.vimeo.com/video/267501397?app_id=122963" width="100%" height="480" frameborder="0" title="The Fakahatchee Strand" allow="autoplay; fullscreen; gyroscope; accelerometer" allowfullscreen></iframe>
+  </div>
+</div>
+
+  
+    
+<div class="BettyOsceola guide tab ">
+  <div class="guide-box">
+<img src="dist/images/1.2.jpg" class="full-size "/>
+<button id="" onclick='playFilm("flat.BettyOsceola")'
+ontouchstart='playFilm("flat.BettyOsceola")' class="play-trailer fas fa-play-circle"></button>
+  </div>
+  <div class="indent black">
+    <h2>River of Grass</h3>
+    <div class="two-thirds"><p>Betty Osceola, a member of the Miccosukee tribe and an airboat tour operator, has made it her mission to protect the water of the Everglades. Betty takes us to see how the pollution plume in the cypress swamps is literally suffocating the natural growth of the once pristine region. The majority of Florida's prairies have been converted to cattle ranches, sod farms, and citrus groves. These prairies are no longer the thriving grasslands they once were. Use the icons on the right to further explore this place.</p></div>
+    <div class="controls">
+      <ul class="guide-controls">
+     
+        <li><button onclick='playFilm("dimensional.BettyOsceola")'
+               ontouchstart='playFilm("dimensional.BettyOsceola")'>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 85.5 83"><defs><style>.cls-1{fill:none;stroke-miterlimit:10;stroke-width:8px;}</style></defs><ellipse class="everglade" cx="44.25" cy="40.75" rx="17.25" ry="17.75"/><path class="cls-1 everglade" d="M11.66,55.5a37.49,37.49,0,1,0,.2-15" transform="translate(-4.5 -7)"/><polygon class="everglade" points="7.75 41.15 0 52 15.5 52 7.75 41.15"/></svg>
+            360&deg; Landscape</button></li>
+        <li><button onclick='openMap([&quot;25.7621,-80.6801&quot;])'
+               ontouchstart='openMap([&quot;25.7621,-80.6801&quot;])'>
+            <i class="fas fa-map-marker-alt"></i> Map</button></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="BettyOsceola flat overlay">
+  <button onclick='closeOverlay("flat.BettyOsceola")'>Close <i class="fas fa-times"></i></button>
+  <div class="popup video">
+    <iframe src="https://player.vimeo.com/video/258546392?app_id=122963" width="100%" height="360" frameborder="0" title="RiverofGrass_Betty Osceola_June27" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  </div>
+</div>
+
+<div class="BettyOsceola dimensional overlay">
+  <button onclick='closeOverlay("dimensional.BettyOsceola")'>Close <i class="fas fa-times"></i></button>
+  <div class="popup">
+    <iframe src="https://player.vimeo.com/video/267500725?app_id=122963" width="100%" height="480" frameborder="0" title="Prairies" allow="autoplay; fullscreen; gyroscope; accelerometer" allowfullscreen></iframe>
+  </div>
+</div>
+
+  
+    
+<div class="LarryBrandt guide tab ">
+  
+  <div class="guide-box">
+    <img src="dist/images/1.3.jpg" class="full-size "/>
+    <button id="" onclick='playFilm("flat.LarryBrandt")'
+    ontouchstart='playFilm("flat.LarryBrandt")' class="play-trailer fas fa-play-circle"></button>
+    </div>
+
+  <div class="indent black">
+    <h2>Poison Water</h3>
+    <div class="two-thirds"><p>Larry Brand, an algae specialist, explains how fertilizer runoff causes algae blooms that pose frightening but largely invisible health risks. We follow Larry on his water sampling route which begins at a canal on the edge of the Everglades and ends in the mangroves of Florida Bay. Mangroves are able to withstand harsh conditions make them a natural buffer and stabilizing force against storms. Use the icons on the right to further explore this place.</p></div>
+    <div class="controls">
+      <ul class="guide-controls">
+       
+        <li><button onclick='playFilm("dimensional.LarryBrandt")'
+               ontouchstart='playFilm("dimensional.LarryBrandt")'>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 85.5 83"><defs><style>.cls-1{fill:none;stroke-miterlimit:10;stroke-width:8px;}</style></defs><ellipse class="everglade" cx="44.25" cy="40.75" rx="17.25" ry="17.75"/><path class="cls-1 everglade" d="M11.66,55.5a37.49,37.49,0,1,0,.2-15" transform="translate(-4.5 -7)"/><polygon class="everglade" points="7.75 41.15 0 52 15.5 52 7.75 41.15"/></svg>
+            360&deg; Landscape</button></li>
+        <li><button onclick='openMap([&quot;25.4083,-80.5240&quot;,&quot;X&quot;])'
+               ontouchstart='openMap([&quot;25.4083,-80.5240&quot;,&quot;X&quot;])'>
+            <i class="fas fa-map-marker-alt"></i> Map</button></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="LarryBrandt flat overlay">
+  <button onclick='closeOverlay("flat.LarryBrandt")'>Close <i class="fas fa-times"></i></button>
+  <div class="popup video">
+    <iframe src="https://player.vimeo.com/video/258528568?app_id=122963" width="100%" height="360" frameborder="0" title="PoisonWater_Larry Brand__June26" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  </div>
+</div>
+
+<div class="LarryBrandt dimensional overlay">
+  <button onclick='closeOverlay("dimensional.LarryBrandt")'>Close <i class="fas fa-times"></i></button>
+  <div class="popup">
+    <iframe src="https://player.vimeo.com/video/267501183?app_id=122963" width="100%" height="480" frameborder="0" title="Mangroves/Estuaries" allow="autoplay; fullscreen; gyroscope; accelerometer" allowfullscreen></iframe>
+  </div>
+</div>
+
+  
+    
+<div class="HoustonCypress guide tab ">
+  
+  <div class="guide-box">
+    <img src="dist/images/1.4.jpg" class="full-size "/>
+    <button id="" onclick='playFilm("flat.HoustonCypress")'
+    ontouchstart='playFilm("flat.HoustonCypress")' class="play-trailer fas fa-play-circle"></button>
+    </div>
+
+  <div class="indent black">
+    <h2>Tree Island</h3>
+    <div class="two-thirds"><p>Reverend Houston R. Cypress, a Miccosukee artist and the co-founder of "Love the Everglades Movement," explains the vital role of water and tradition in the Everglades. Houston takes us to a tree island in the heart of the Everglades. Tree Islands are elevated tree-covered mounds and some scientists suggest these were once ancient trash mounds or shell middens, which accounts for the height. The number of Tree islands in the Everglades has been shrinking. Use the icons on the right to further explore this place.</p></div>
+    <div class="controls">
+      <ul class="guide-controls">
+   
+        <li><button onclick='playFilm("dimensional.HoustonCypress")'
+               ontouchstart='playFilm("dimensional.HoustonCypress")'>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 85.5 83"><defs><style>.cls-1{fill:none;stroke-miterlimit:10;stroke-width:8px;}</style></defs><ellipse class="everglade" cx="44.25" cy="40.75" rx="17.25" ry="17.75"/><path class="cls-1 everglade" d="M11.66,55.5a37.49,37.49,0,1,0,.2-15" transform="translate(-4.5 -7)"/><polygon class="everglade" points="7.75 41.15 0 52 15.5 52 7.75 41.15"/></svg>
+            360&deg; Landscape</button></li>
+        <li><button onclick='openMap([&quot;25.7619,-80.7954&quot;,&quot;X&quot;,&quot;X&quot;])'
+               ontouchstart='openMap([&quot;25.7619,-80.7954&quot;,&quot;X&quot;,&quot;X&quot;])'>
+            <i class="fas fa-map-marker-alt"></i> Map</button></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="HoustonCypress flat overlay">
+  <button onclick='closeOverlay("flat.HoustonCypress")'>Close <i class="fas fa-times"></i></button>
+  <div class="popup video">
+    <iframe src="https://player.vimeo.com/video/265997110?app_id=122963" width="100%" height="360" frameborder="0" title="Tree Island, Reverend Houston R. Cypress" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  </div>
+</div>
+
+<div class="HoustonCypress dimensional overlay">
+  <button onclick='closeOverlay("dimensional.HoustonCypress")'>Close <i class="fas fa-times"></i></button>
+  <div class="popup">
+    <iframe src="https://player.vimeo.com/video/267501903?app_id=122963" width="100%" height="480" frameborder="0" title="Tree Island" allow="autoplay; fullscreen; gyroscope; accelerometer" allowfullscreen></iframe>
+  </div>
+</div>
+
+  
+    
+<div class="WinEverham guide tab ">
+  
+  <div class="guide-box">
+    <img src="dist/images/1.5.jpg" class="full-size "/>
+    <button id="" onclick='playFilm("flat.WinEverham")'
+    ontouchstart='playFilm("flat.WinEverham")' class="play-trailer fas fa-play-circle"></button>
+    </div>
+
+  <div class="indent black">
+    <h2>Dr. Disturbance</h3>
+    <div class="two-thirds"><p>Win Everham, a disturbance ecologist, takes us to a recently burned pine forest to explain the impacts of human caused disturbances. The pinelands of Florida are rugged landscapes that depend on both wild and human caused fires, to clear out the large pines that would otherwise be blocking light to the seedlings. Use the icons on the right to further explore this place.</p></div>
+    <div class="controls">
+      <ul class="guide-controls">
+        <li><button onclick='playFilm("dimensional.WinEverham")'
+               ontouchstart='playFilm("dimensional.WinEverham")'>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 85.5 83"><defs><style>.cls-1{fill:none;stroke-miterlimit:10;stroke-width:8px;}</style></defs><ellipse class="everglade" cx="44.25" cy="40.75" rx="17.25" ry="17.75"/><path class="cls-1 everglade" d="M11.66,55.5a37.49,37.49,0,1,0,.2-15" transform="translate(-4.5 -7)"/><polygon class="everglade" points="7.75 41.15 0 52 15.5 52 7.75 41.15"/></svg>
+            360&deg; Landscape</button></li>
+        <li><button onclick='openMap([&quot;26.1321,-81.5691&quot;])'
+               ontouchstart='openMap([&quot;26.1321,-81.5691&quot;])'>
+            <i class="fas fa-map-marker-alt"></i> Map</button></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="WinEverham flat overlay">
+  <button onclick='closeOverlay("flat.WinEverham")'>Close <i class="fas fa-times"></i></button>
+  <div class="popup video">
+    <iframe src="https://player.vimeo.com/video/264325150?app_id=122963" width="100%" height="360" frameborder="0" title="Disturbances _Win Everham_June28" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  </div>
+</div>
+
+<div class="WinEverham dimensional overlay">
+  <button onclick='closeOverlay("dimensional.WinEverham")'>Close <i class="fas fa-times"></i></button>
+  <div class="popup">
+    <iframe src="https://player.vimeo.com/video/267503066?app_id=122963" width="100%" height="480" frameborder="0" title="Pineland" allow="autoplay; fullscreen; gyroscope; accelerometer" allowfullscreen></iframe>
+  </div>
+</div>
+
+  
+    
+<div class="DonnaMolfetto guide tab ">
+  
+  <div class="guide-box">
+    <img src="dist/images/1.6.jpg" class="full-size "/>
+    <button id="" onclick='playFilm("flat.DonnaMolfetto")'
+    ontouchstart='playFilm("flat.DonnaMolfetto")' class="play-trailer fas fa-play-circle"></button>
+    </div>
+
+  <div class="indent black">
+    <h2>City Swamp</h3>
+    <div class="two-thirds"><p>Donna Molfetto, a raptor biologist, takes us to what was once a thriving hardwood hammock but is now struggling as a result of encroaching development. Hardwood Hammocks are dominated by tropical mahogany, gumbo-limbo, and an undergrowth of ferns and air plants. These unique ecosystems have been impacted by human development, fires, agriculture, and alterations in water flow. Donna explains the importance of tracking red shouldered hawks to see if this species will be able to survive the impacts of human expansion. Use the icons on the right to further explore this place.</p></div>
+    <div class="controls">
+      <ul class="guide-controls">
+        <li><button onclick='playFilm("dimensional.DonnaMolfetto")'
+               ontouchstart='playFilm("dimensional.DonnaMolfetto")'>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 85.5 83"><defs><style>.cls-1{fill:none;stroke-miterlimit:10;stroke-width:8px;}</style></defs><ellipse class="everglade" cx="44.25" cy="40.75" rx="17.25" ry="17.75"/><path class="cls-1 everglade" d="M11.66,55.5a37.49,37.49,0,1,0,.2-15" transform="translate(-4.5 -7)"/><polygon class="everglade" points="7.75 41.15 0 52 15.5 52 7.75 41.15"/></svg>
+            360&deg; Landscape</button></li>
+        <li><button onclick='openMap([&quot;25.6041,-80.3119&quot;])'
+               ontouchstart='openMap([&quot;25.6041,-80.3119&quot;])'>
+            <i class="fas fa-map-marker-alt"></i> Map</button></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="DonnaMolfetto flat overlay">
+  <button onclick='closeOverlay("flat.DonnaMolfetto")'>Close <i class="fas fa-times"></i></button>
+  <div class="popup video">
+    <iframe src="https://player.vimeo.com/video/265838820?app_id=122963" width="100%" height="360" frameborder="0" title="City Swamp_Donna Molfetto_June28" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  </div>
+</div>
+
+<div class="DonnaMolfetto dimensional overlay">
+  <button onclick='closeOverlay("dimensional.DonnaMolfetto")'>Close <i class="fas fa-times"></i></button>
+  <div class="popup">
+    <iframe src="https://player.vimeo.com/video/267501531?app_id=122963" width="100%" height="480" frameborder="0" title="Tropical Hardwood Hammock" allow="autoplay; fullscreen; gyroscope; accelerometer" allowfullscreen></iframe>
+  </div>
+</div>
+
+  
+  <div class="overlay" id="map">
+    <button onclick='closeOverlay()'>Close <i class="fas fa-times"></i></button>
+    <div class="popup" id="mapPopup">
+    </div>
+  </div>
+</div>
+<div id="guidenav">
+ 
+  
+    <img src="dist/images/1.1_Guide_Thumbnail.jpg"
+      onclick="selectGuide('MikeOwen')"
+      ontouchstart="selectGuide('MikeOwen')"
+      class="thumb"/>
+  
+    <img src="dist/images/1.2_Guide_Thumbnail.jpg"
+      onclick="selectGuide('BettyOsceola')"
+      ontouchstart="selectGuide('BettyOsceola')"
+      class="thumb"/>
+  
+    <img src="dist/images/1.3_Guide_Thumbnail.jpg"
+      onclick="selectGuide('LarryBrandt')"
+      ontouchstart="selectGuide('LarryBrandt')"
+      class="thumb"/>
+  
+    <img src="dist/images/1.4_Guide_Thumbnail.jpg"
+      onclick="selectGuide('HoustonCypress')"
+      ontouchstart="selectGuide('HoustonCypress')"
+      class="thumb"/>
+  
+    <img src="dist/images/1.5_Guide_Thumbnail.jpg"
+      onclick="selectGuide('WinEverham')"
+      ontouchstart="selectGuide('WinEverham')"
+      class="thumb"/>
+  
+    <img src="dist/images/1.6_Guide_Thumbnail.jpg"
+      onclick="selectGuide('DonnaMolfetto')"
+      ontouchstart="selectGuide('DonnaMolfetto')"
+      class="thumb"/>
+  
+      <p style="margin-top: 10px; color: #fff; font-size: 14px;">
+        In both our 2D shorts and our VR film (13-min) we invite users to encounter the extraordinary diversity of the 
+        Everglades through local “guides.”  Each guide addresses a 
+        critical themes such as health, extinction and indigenous world views.      </p>
+
+</div>
+
+    </div>
+    <footer>
+      <ul>
+        <li id="aboutNavLink"><a href="about.html">About Us</a></li> 
+        <li><a href="mailto:lizmiller.concordia@gmail.com"><i class="fas fa-envelope"></i> Contact us</a></li>
+        <li><a href="https://www.instagram.com/swampscapes/"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://twitter.com/SWAMPSCAPES"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://www.facebook.com/SwampScapes-830043820512266/"><i class="fab fa-facebook"></i></a></li>
+      </ul>
+    </footer>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168205171-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-168205171-2');
+</script>
+
+
+  </body>
+</html>

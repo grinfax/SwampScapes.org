@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+  <link rel="stylesheet" href="dist/css/examples.css" />
+  
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="dist/css/master.css">
+    <script type="text/javascript" src="dist/js/master.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="dist/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="dist/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="dist/favicons/favicon-16x16.png">
+    <link rel="manifest" href="dist/favicons/site.webmanifest">
+    <link rel="mask-icon" href="dist/favicons/safari-pinned-tab.svg" color="#839b12">
+    <link rel="shortcut icon" href="dist/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="msapplication-config" content="/dist/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#839b12">
+    <title>Swamp Symphony | Swampscapes</title>
+    
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tone/13.1.5/Tone.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/draggabilly/2.2.0/draggabilly.pkgd.min.js"></script>
+  <script src="dist/js/Interface.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/interact.js/1.2.9/interact.min.js"></script>
+
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li id="logo"><a href="index.html">SwampScapes</a></li>
+        <li id="dropdown" onclick="toggleMenu()"><i class="fas fa-bars"></i></li>
+        <div id="burgable">
+          <li><a href="guides.html">Films</a></li> 
+          <li><a href="vr.html">VR</a></li>
+          <li><a href="photos.html">Photos</a></li>
+          <li class="hide-touch"><a href="swamp-symphony.html">Sounds</a></li>
+          <li><a href="education.html">Education</a></li>
+        </div>
+      </ul>
+    </nav>
+
+    <div class="main">
+      
+<div class="indent">
+  <h2 class="center">SWAMP SYMPHONY</h2>
+  <div id="Content"><div id="sliders"></div></div>
+  <div id="buffer">
+    <p id="reset" class="center" onclick="reset()">Start Over</p>
+    <p class="center desktop">Drag and drop to create your symphony!</p>
+    <p class="center mobile">Tap an animal to add it to your symphony!</p>
+    <p class="center">Move the slider right or left to adjust volume.</p>
+  </div>
+  <div id="soundIcons">
+    
+      <div class="animalTile">
+        <img id='2-2-0' class="animalIcon" src="dist/images/icons/2.2.0.png" draggable='true'/>
+        <p class="caption">Belted Kingfisher</p>
+      </div>
+    
+      <div class="animalTile">
+        <img id='2-2-1' class="animalIcon" src="dist/images/icons/2.2.1.png" draggable='true'/>
+        <p class="caption">Red Shouldered Hawk</p>
+      </div>
+    
+      <div class="animalTile">
+        <img id='2-2-2' class="animalIcon" src="dist/images/icons/2.2.2.png" draggable='true'/>
+        <p class="caption">Green Tree Frog</p>
+      </div>
+    
+      <div class="animalTile">
+        <img id='2-2-3' class="animalIcon" src="dist/images/icons/2.2.3.png" draggable='true'/>
+        <p class="caption">Heavy Rain</p>
+      </div>
+    
+      <div class="animalTile">
+        <img id='2-2-4' class="animalIcon" src="dist/images/icons/2.2.4.png" draggable='true'/>
+        <p class="caption">Fakahatchee Gator</p>
+      </div>
+    
+      <div class="animalTile">
+        <img id='2-2-5' class="animalIcon" src="dist/images/icons/2.2.5.png" draggable='true'/>
+        <p class="caption">Northern Cardinal</p>
+      </div>
+    
+      <div class="animalTile">
+        <img id='2-2-6' class="animalIcon" src="dist/images/icons/2.2.6.png" draggable='true'/>
+        <p class="caption">Northern Yellow Bat</p>
+      </div>
+    
+      <div class="animalTile">
+        <img id='2-2-7' class="animalIcon" src="dist/images/icons/2.2.7.png" draggable='true'/>
+        <p class="caption">Great Crested Flycatcher</p>
+      </div>
+    
+      <div class="animalTile">
+        <img id='2-2-8' class="animalIcon" src="dist/images/icons/2.2.8.png" draggable='true'/>
+        <p class="caption">Southern Leopard Frog</p>
+      </div>
+    
+      <div class="animalTile">
+        <img id='2-2-9' class="animalIcon" src="dist/images/icons/2.2.9.png" draggable='true'/>
+        <p class="caption">Tricolored Bat</p>
+      </div>
+    
+  </div>
+  <div id="copyCircle"></div>
+<p>  Swamp Symphony is our humble homage to biodiversity. 
+  Biologists at The CREW Land and Water Trust in the Corkscrew Regional Watershed 
+  recorded swamp sounds at night over a period of several months to study this fast 
+  changing landscape. A special feature of our Swamp Symphony are bat calls. Most of us 
+  can not hear bat calls but new technologies have permitted CREW biologists to place 
+  ultrasonic microphones in flight corridors or near water to record the calls. They used 
+  the software, Sonobat, to analyze the sounds.  By using these sounds originally recorded 
+  by biologists for research, we bridging science and art. Enjoy 
+   sounds and get inspired to create your own swamp symphony.
+</p></div>
+<script type="text/javascript" src="dist/js/symphony.js"></script>
+
+    </div>
+
+
+    <footer>
+      <ul>
+        <li id="aboutNavLink"><a href="about.html">About Us</a></li> 
+        <li><a href="mailto:lizmiller.concordia@gmail.com"><i class="fas fa-envelope"></i> Contact us</a></li>
+        <li><a href="https://www.instagram.com/swampscapes/"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://twitter.com/SWAMPSCAPES"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://www.facebook.com/SwampScapes-830043820512266/"><i class="fab fa-facebook"></i></a></li>
+      </ul>
+    </footer>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168205171-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-168205171-2');
+</script>
+
+  </body>
+</html>

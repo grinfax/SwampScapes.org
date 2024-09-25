@@ -1,0 +1,814 @@
+@import url("https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica");
+@import url("https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica+SC");
+h1 {
+  font-family: "IM Fell Double Pica", serif;
+  font-size: 30px; }
+
+  a.contactlink {
+    color: #D9D269;
+    text-decoration: none;
+  }
+
+.green {
+  color: #D9D269;
+}
+
+a {
+  color: #524d11;
+}
+
+
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } 
+.embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+
+
+.tip {
+  background: #efefef;
+  padding: 15px;
+  margin-right: 10px;
+}
+
+.lesson-table {
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.lesson-img {
+  padding-right: 15px;
+  width: 100px;
+  vertical-align: top;
+}
+
+.lesson-description {
+  vertical-align: top;
+}
+
+.lesson-download {
+  vertical-align: bottom;
+}
+
+.lesson-download a.button {
+  width: 200px;
+  float: left;
+  text-align: center;
+}
+
+h3 {
+  font-family: "IM Fell Double Pica", serif;
+  font-size: 30px; }
+
+h4, h5, h6 {
+  font-family: "IM Fell Double Pica", Helvetica, Arial, sans-serif;
+  font-size: 20px; }
+
+p, li, a, button, .lesson-description {
+  font-family: "IM Fell Double Pica", Helvetica, Arial, sans-serif;
+  font-size: 18px; }
+
+nav {
+  font-family: "IM Fell Double Pica", Helvetica, Arial, sans-serif;
+  font-size: 16px; }
+
+h2, #logo a {
+  font-family: "IM Fell Double Pica", serif;
+  font-size: 36px; }
+
+#logo a {
+  font-family: "IM Fell Double Pica SC", serif; }
+
+@media (max-width: 850px) {
+  h1 {
+    font-size: 30px; }
+
+  h2, #logo {
+    font-size: 25px; }
+
+  h3 {
+    font-size: 20px; }
+
+  h4, h5, h6 {
+    font-size: 16px; }
+
+  p, li, a, button {
+    font-size: 12px; } }
+ul {
+  list-style-type: none; }
+
+#dropdown {
+  display: none; }
+
+nav, footer {
+  z-index: 500;
+  background-color: #111;
+  padding: 0 5%; }
+  nav ul, footer ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; }
+  nav li a, footer li a {
+    letter-spacing: 3px;
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none; }
+    nav li a:hover, footer li a:hover {
+      color: #CCCCCC; }
+  nav li:hover, footer li:hover {
+    background-color: #111; }
+  nav li:first-child, footer li:first-child {
+    border-top: none;
+    float: left; }
+    nav li:first-child a, footer li:first-child a {
+      padding-left: 0;
+      margin-left: 0; }
+  nav div#burgable, footer div#burgable {
+    z-index: 501;
+    width: 80%;
+    float: right; }
+    nav div#burgable li, footer div#burgable li {
+      display: inline-block; }
+      nav div#burgable li:first-child a, footer div#burgable li:first-child a {
+        margin-left: 30px; }
+
+        .callout {
+          background: #D9D269;
+          padding: 5px 10px;
+          float: right;
+          width: 440px;
+          margin-left: 20px;
+        }
+
+
+        .callout h4 {
+          margin-top: 5px;
+          margin-bottom: 7px;
+        }
+
+        .button {
+          display: block;
+          margin: auto;
+          padding: 10px; 
+          color: #fff;
+          background: #9b9427;
+          text-decoration: none;
+          text-transform: uppercase;
+          font-size: 0.8em;
+        }
+
+        .button:hover {
+          background: #524d11;
+        }
+
+        .about-pic {
+          float: none; 
+          margin-left: 0;
+          max-width: 100%;
+          margin-bottom: 15px;
+        }
+
+footer {
+  width: auto;
+  padding: 0 5%;
+  background-color: #111; }
+  footer li {
+    float: right; }
+    footer li:hover {
+      background-color: #111; }
+    footer li a {
+      color: #CCCCCC;
+      padding: 25px 8px; }
+    footer li:first-child a {
+      padding-left: 0; }
+
+nav li a {
+  padding: 17px 20px 10px 20px;
+  margin: 0 30px; }
+
+#logo {
+  padding: 0; }
+  #logo a {
+    padding-top: 10px; }
+  #logo img {
+    width: 170px; }
+
+@media (max-width: 767px) {
+
+  .callout {
+    background: #D9D269;
+    padding: 5px 10px;
+    float: none;
+    width: 98%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+
+  nav li#dropdown {
+    right: 20px; }
+  nav div#burgable.hamburged {
+    width: 150px; }
+    nav div#burgable.hamburged li {
+      width: 150px; } 
+    
+      .lesson-download a.button {
+        width: 80%;
+        margin-top: 10px;
+      }
+    
+    }
+@media (max-width: 1380px) {
+
+  nav div#burgable {
+    background-color: #111;
+    display: none; }
+    nav div#burgable.hamburged {
+      display: block;
+      position: absolute;
+      right: 10%;
+      width: 250px; }
+      nav div#burgable.hamburged li {
+        display: block;
+        width: 250px; }
+  nav li {
+    border-top: 1px solid #CCCCCC;
+    float: none;
+    display: none; }
+    nav li#dropdown {
+      display: initial;
+      position: absolute;
+      top: 15px;
+      right: 11%;
+      color: white;
+      border-top: none;
+      font-size: 20px; }
+    nav li:first-child {
+      float: none;
+      display: inline-block; }
+      nav li:first-child a {
+        display: block; }
+    nav li a {
+      margin: 0;
+      padding: 5px 20px; } }
+@media (max-width: 1200px) {
+
+  .watch-trailer {
+    width: 100%;
+  }
+
+  nav div#burgable.hamburged {
+    right: 5%; }
+  nav li#dropdown {
+    right: 5%; } }
+@media (min-width: 1200px) {
+
+
+  nav, footer {
+    padding: 0 10%; 
+  
+    max-width: 1280px;
+    margin: auto;
+  
+  }
+    nav div#burgable, footer div#burgable {
+      width: fit-content; } }
+@media (max-width: 900px) and (min-width: 768px) {
+  nav li a, footer li a {
+    margin: 0 15px; } }
+#Content .Dragger #Name {
+  line-height: initial;
+  padding-top: 30px; }
+#Content .Slider.x {
+  width: 90%;
+  margin-left: 5%; }
+
+div#buffer {
+  margin-top: 350px;
+  margin-bottom: 50px; }
+
+.mobile {
+  display: none; }
+
+@media (max-width: 767px) {
+  .desktop {
+    display: none; }
+
+  .mobile {
+    display: block; } }
+.animalTile {
+  vertical-align: top;
+  width: 100px;
+  min-height: 150px;
+  display: inline-block; }
+
+@media (min-width: 768px) {
+
+  .about-pic {
+    float: right; 
+    margin-left: 15px;
+    max-width: 100%;
+  }
+
+  
+  .animalTile {
+    width: 9%; } }
+.animalIcon {
+  width: 100%;
+  cursor: -webkit-grab;
+  cursor: grab; }
+
+.sliderIcon {
+  width: 90px;
+  position: relative;
+  cursor: -webkit-grab;
+  cursor: grab; }
+
+div#soundIcons {
+  margin-bottom: 50px; }
+  div#soundIcons .caption {
+    font-size: 12px;
+    text-align: center;
+    height: 30px; }
+
+div#copyCircle {
+  display: none;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  z-index: 100;
+  background-color: black; }
+
+@media (min-width: 1200px) {
+  #Content .Slider.x {
+    width: 70%;
+    margin-left: 15%; } }
+
+#reset {
+  margin-bottom: 25px;
+  padding: 2.5px 5px;
+  border-radius: 5px;
+  border: 1px solid black; }
+  #reset:active {
+    background-color: #ddd; }
+
+
+      div#guidebody-vr h2 {
+        color: white;
+        font-size: 34px; }
+      div#guidebody-vr div.indent.black {
+        width: 100%; }
+
+        div#guidenav-vr {
+          box-sizing: border-box;
+          width: 100%;
+        padding: 15px; }
+          div#guidenav-vr h1 {
+            color: white;
+            letter-spacing: 2px;
+            font-size: 20px; }
+          div#guidenav-vr .thumb {
+            width: 100%;
+            margin: 5px 0;
+            opacity: 0.75; }
+            div#guidenav-vr .thumb:hover {
+              opacity: 1; }
+            div#guidenav-vr .thumb:first-child {
+              margin-top: 0; }
+
+
+div#guidebody {
+  display: inline-block;
+  width: 78%; }
+  div#guidebody h2 {
+    color: white;
+    font-size: 34px; }
+  div#guidebody div.indent.black {
+    width: 110%; }
+
+div#guidenav {
+  display: inline-block;
+  float: right;
+  width: 10%; }
+  div#guidenav h1 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px; }
+  div#guidenav .thumb {
+    width: 100%;
+    margin: 5px 0;
+    opacity: 0.75; }
+    div#guidenav .thumb:hover {
+      opacity: 1; }
+    div#guidenav .thumb:first-child {
+      margin-top: 0; }
+
+.controls {
+  display: inline-block;
+  float: right;
+  width: 33%;
+  position: relative;
+  top: -20px; }
+  .controls li {
+    min-width: 200px;
+    margin-top: 10px;
+    text-align: left; }
+  .controls i.fas {
+    font-size: 20px;
+    margin-right: 5px;
+    color: #D9D269; }
+    .controls i.fas.fa-map-marker-alt {
+      margin-left: 2.5px;
+      margin-right: 7px; }
+
+@media (max-width: 1199px) {
+  div#guidebody {
+    margin-left: 2%;
+    width: 86.2%; }
+
+  div#guidenav {
+    margin-right: 2%;
+    width: 9.2%; }
+    div#guidenav h1 {
+      text-align: center; } }
+@media (min-width: 1200px) {
+  div#guidebody .nav-toggler {
+    display: none; }
+  div#guidebody button {
+    text-align: left; }
+  div#guidebody div.indent.black {
+    width: 137%; }
+
+  div#guidenav {
+    width: 20%;
+    margin: 1%;
+    margin-top: 0; }
+    div#guidenav h1 {
+      margin-top: 5px;
+      color: white;
+      text-align: right; }
+    div#guidenav .thumb {
+      width: 48.8%;
+      display: inline-block;
+      padding: 0;
+      margin: 0; } }
+@media (max-width: 767px) {
+  div#guidebody {
+    width: 100%;
+    margin: 0; }
+    div#guidebody div.indent.black {
+      width: 90%; }
+
+  .controls {
+    float: none;
+    position: static;
+    width: 100%; }
+
+
+
+  .guide-controls {
+    width: 100%;
+    display: block;
+    padding: 0;
+    margin-bottom: 0; }
+    .guide-controls li {
+      min-width: unset;
+      margin: 0;
+      width: 32%;
+      display: inline-block; }
+      .guide-controls li button {
+        text-align: left; }
+
+  div#guidenav {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    float: none;
+    display: inline-block; }
+    div#guidenav .thumb {
+      margin: 0;
+      width: 32%;
+      display: inline-block;
+      opacity: 1; } }
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #111; }
+
+img {
+  display: block; }
+
+  .full-vr {
+    max-width: 100%;
+  }
+
+  .vr-copy {
+    color: #fff;
+  }
+
+  img.laurel {
+    max-width: 20%;
+    margin: 10px 2.5%;
+    float: left;
+  }
+  .accolades {
+    text-align: center;
+  }
+
+  .vr-body {
+    background: #fff !important;
+    text-align: left !important;
+    padding: 15px !important;
+  }
+
+  h3.vr {
+    font-family: "IM Fell Double Pica", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: #D9D269;
+  }
+
+p {
+  margin: 0;
+  padding: 0; }
+
+div.main {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  padding-top: 1px;
+  border-top: 1px solid #D9D269;
+  border-bottom: 1px solid #D9D269; }
+
+div.indent {
+  padding: 50px 5%;
+  background-color: #FFFFFF; }
+  div.indent.about {
+    min-height: 300px; }
+    div.indent.about ul {
+      list-style-type: disc; }
+      div.indent.about ul#tab-buttons {
+        list-style-type: disc;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 40px;
+        padding: 0; }
+        div.indent.about ul#tab-buttons li {
+          margin: 0;
+          display: inline-block;
+          background-color: #111;
+          color: white;
+          padding: 10px 0;
+          width: 24%;
+          text-align: center; }
+          div.indent.about ul#tab-buttons li.tab-buttons-active {
+            background-color: #fcc90f;
+            color: black; }
+          div.indent.about ul#tab-buttons li:hover {
+            cursor: pointer; }
+
+div.black {
+  background-color: #111;
+  color: white; }
+  div.black.indent {
+    padding: 20px 5%; }
+    div.black.indent h2 {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      text-align: left;
+      margin-left: 0;
+      color: #D9D269;
+      letter-spacing: 2px; }
+
+#play-trailer {
+  font-size: 80px;
+  position: absolute;
+  top: 40%;
+  left: calc(50% - 40px);
+  z-index: 5;
+  color: rgba(255, 255, 255, 0.8); }
+
+  .play-trailer {
+    font-size: 80px;
+    position: absolute;
+    top: 30%;
+    left: calc(50% - 40px);
+    z-index: 5;
+    color: rgba(255, 255, 255, 0.8); }
+
+
+
+div#first-copy {
+  color: #000;
+  padding: 5px 15px;
+background: #D9D269; 
+border-top: 1px solid #000;
+/* border-bottom: 1px solid #000; */
+}
+
+.full-size {
+  width: 100%;
+  display: block; }
+
+.center {
+  text-align: center; }
+
+.tab {
+  display: none; }
+  .tab.active {
+    display: block; }
+
+.two-thirds {
+  display: inline-block;
+  width: 66%; }
+
+button {
+  background: none;
+  color: inherit;
+  border: none; }
+  button:hover {
+    cursor: pointer; }
+
+.watch {
+  background-color: #D9D269;
+  width: 200px;
+  margin-left: 10%;
+  margin-top: 100px;
+  padding: 10px 0;
+  border-radius: 5px; }
+  .watch i.fas {
+    color: #FFFFFF;
+    margin-right: 0;
+    margin-left: 5px;
+    position: relative;
+    top: 3px; }
+  .watch:hover {
+    background-color: #9b9427; }
+
+svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px; }
+  svg .everglade {
+    stroke: #D9D269;
+    fill: #D9D269; }
+    svg .everglade.cls-1 {
+      fill: none; }
+  svg .nepal {
+    stroke: #D9D269; }
+
+body {
+  position: relative; }
+
+.overlay {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  padding: 20px 5% 60px 5%; }
+  .overlay.up {
+    visibility: visible;
+    opacity: 1; }
+  .overlay button {
+    color: white;
+    float: right; }
+  .overlay .popup {
+    margin-top: 100px;
+  max-width: 1200px; 
+margin: auto; }
+
+body {
+  overflow-x: hidden;
+  position: relative;
+  top: 0;
+  left: 0;
+  transition: left 1s; }
+  body.slid {
+    left: -25%; }
+
+@media (min-width: 1200px) {
+
+
+  div.main, .accolades {
+    background-color: #111;
+    width: 80%;
+    max-width: 1280px;
+    margin: auto;
+   } }
+@media (max-width: 767px) {
+  .overlay div.popup {
+    margin-top: 25px; }
+
+  #play-trailer {
+    font-size: 36px;
+    left: calc(50% - 25px);
+    top: 35%; }
+
+
+  footer li:first-child {
+    /* max-width: 15px; */
+    white-space: nowrap;
+    overflow: hidden; }
+
+  .two-thirds {
+    width: 100%; }
+
+  .indent.black h2 {
+    -webkit-margin-before: 0;
+    margin-before: 0; }
+
+  body.slid {
+    left: -50%; }
+
+  div.indent.about {
+    min-height: 300px; }
+    div.indent.about ul#tab-buttons {
+      margin-bottom: 10px; }
+      div.indent.about ul#tab-buttons li {
+        height: 18px;
+        display: block;
+        width: 100%;
+        margin-top: 5px; } }
+.juxtapose {
+  min-height: 50px;
+  position: relative;
+  top: -40px; }
+  .juxtapose::before {
+    font-family: "IM Fell Double Pica", serif;
+    font-size: 25px;
+    color: white;
+    content: 'Loading';
+    position: relative;
+    top: 50px;
+    background-color: grey;
+    display: block;
+    text-align: center;
+    padding: 10px 0; }
+
+
+    .guide {
+      position: relative !important;
+    }
+
+    @media (pointer: coarse) and (hover: none) {
+     .hide-touch {
+       /* display: none !important; */
+     }
+  }
+
+
+
+
+/* Dropdown btn */
+
+.dropbtn {
+  cursor: pointer;
+}
+
+
+.dropdown {
+  position: relative;
+  display: block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 35px;
+  left: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #ccc;
+}
+
+
+/*# sourceMappingURL=master.css.map */
+

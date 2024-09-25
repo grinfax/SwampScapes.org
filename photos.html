@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+  
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="dist/css/master.css">
+    <script type="text/javascript" src="dist/js/master.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="dist/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="dist/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="dist/favicons/favicon-16x16.png">
+    <link rel="manifest" href="dist/favicons/site.webmanifest">
+    <link rel="mask-icon" href="dist/favicons/safari-pinned-tab.svg" color="#839b12">
+    <link rel="shortcut icon" href="dist/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="msapplication-config" content="/dist/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#839b12">
+    <title>Everglades Photos | Swampscape</title>
+    
+<!-- Photo slider CSS file -->
+<link rel="stylesheet" href="dist/photogrid/photoswipe.css"> 
+<link rel="stylesheet" href="dist/photogrid/default-skin/default-skin.css"> 
+<script src="dist/photogrid/photoswipe.min.js"></script> 
+<script src="dist/photogrid/photoswipe-ui-default.min.js"></script> 
+
+  </head>
+
+  <body>
+    <nav>
+        <ul>
+            <li id="logo"><a href="index.html">SwampScapes</a></li>
+            <li id="dropdown" onclick="toggleMenu()"><i class="fas fa-bars"></i></li>
+            <div id="burgable">
+              <li><a href="guides.html">Films</a></li> 
+              <li><a href="vr.html">VR</a></li>
+              <li><a href="photos.html">Photos</a></li>
+              <li class="hide-touch"><a href="swamp-symphony.html">Sounds</a></li>
+              <li><a href="education.html">Education</a></li>
+            </div>
+          </ul>
+    </nav>
+
+<div class="main">
+    <a href="#" id="btn" style="display: block; margin: auto; text-align: center;">
+    <img src="dist/images/3.2.jpg" alt="Evergleades Photo SlideShow" class="full-size">
+    </a>
+<div class="vr-body">
+    <h1>The Photographs</h1>
+    <br>
+
+<p>
+    Up until 1900, all of South Florida was one gigantic swamp. 
+    To make way for agriculture and urban development, the city 
+    drained the swamp and diverted the natural water flow. Today the 
+    Everglades is a skeleton of what it once was and Florida is launching 
+    one of the largest swamp restoration projects in the world to try to 
+    recover this invaluable resource. Our on-line photo exhibit accompanies 
+    our study guide and asks students to consider past and present threats to 
+    wetlands.
+
+    <br><br>
+</p>
+    <p>        Photographs by <a href="https://www.instagram.com/gbexpeditions/?hl=en" target="_blank">Grant Bemis</a>
+        <br><br><br><br><br><br><br>
+    </p>
+  
+
+
+ <!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+</div>
+
+
+    </div>
+
+
+    <footer>
+      <ul>
+        <li id="aboutNavLink"><a href="about.html">About Us</a></li> 
+        <li><a href="mailto:lizmiller.concordia@gmail.com"><i class="fas fa-envelope"></i> Contact us</a></li>
+        <li><a href="https://www.instagram.com/swampscapes/"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://twitter.com/SWAMPSCAPES"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://www.facebook.com/SwampScapes-830043820512266/"><i class="fab fa-facebook"></i></a></li>
+      </ul>
+    </footer>
+
+
+    <script>
+       var openPhotoSwipe = function() {
+    var pswpElement = document.querySelectorAll('.pswp')[0];
+
+    // build items array
+    var items = [
+        {
+            src: 'dist/slides/1.jpg',
+            w: 800,
+            h: 533
+        },
+        {
+            src: 'dist/slides/2.jpg',
+            w: 533,
+            h: 800
+        },{
+            src: 'dist/slides/3.jpg',
+            w: 800,
+            h: 533
+        },{
+            src: 'dist/slides/4.jpg',
+            w: 800,
+            h: 533
+        },{
+            src: 'dist/slides/5.jpg',
+            w: 800,
+            h: 533
+        },{
+            src: 'dist/slides/6.jpg',
+            w: 800,
+            h: 533
+        },{
+            src: 'dist/slides/7.jpg',
+            w: 800,
+            h: 533
+        },{
+            src: 'dist/slides/8.jpg',
+            w: 800,
+            h: 533
+        },{
+            src: 'dist/slides/9.jpg',
+            w: 800,
+            h: 533
+        },{
+            src: 'dist/slides/10.jpg',
+            w: 800,
+            h: 533
+        },{
+            src: 'dist/slides/11.jpg',
+            w: 800,
+            h: 533
+        },{
+            src: 'dist/slides/12.jpg',
+            w: 800,
+            h: 533
+        },{
+            src: 'dist/slides/13.jpg',
+            w: 800,
+            h: 533
+        },{
+            src: 'dist/slides/14.jpg',
+            w: 533,
+            h: 800
+        },{
+            src: 'dist/slides/15.jpg',
+            w: 800,
+            h: 533
+        },{
+            src: 'dist/slides/16.jpg',
+            w: 800,
+            h: 533
+        },{
+            src: 'dist/slides/17.jpg',
+            w: 800,
+            h: 450
+        },{
+            src: 'dist/slides/18.jpg',
+            w: 800,
+            h: 446
+        }
+    ];
+    
+    // define options (if needed)
+    var options = {
+             // history & focus options are disabled on CodePen        
+        history: false,
+        focus: false,
+
+        showAnimationDuration: 0,
+        hideAnimationDuration: 0
+        
+    };
+    
+    var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+    gallery.init();
+};
+
+// openPhotoSwipe();
+
+document.getElementById('btn').onclick = openPhotoSwipe;
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168205171-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-168205171-2');
+</script>
+
+  </body>
+</html>

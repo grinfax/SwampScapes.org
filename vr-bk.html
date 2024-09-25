@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+  
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="dist/css/master.css">
+    <script type="text/javascript" src="dist/js/master.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="dist/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="dist/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="dist/favicons/favicon-16x16.png">
+    <link rel="manifest" href="dist/favicons/site.webmanifest">
+    <link rel="mask-icon" href="dist/favicons/safari-pinned-tab.svg" color="#839b12">
+    <link rel="shortcut icon" href="dist/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="msapplication-config" content="/dist/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#839b12">
+    <title>VR | Swampscapes</title>
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li id="logo"><a href="index.html">SwampScapes</a></li>
+        <li id="dropdown" onclick="toggleMenu()"><i class="fas fa-bars"></i></li>
+        <div id="burgable">
+          <li><a href="guides.html">Films</a></li> 
+          <li><a href="vr.html">VR</a></li>
+          <li><a href="photos.html">Photos</a></li>
+          <li  class="hide-touch"><a href="swamp-symphony.html">Sounds</a></li>
+          <li><a href="education.html">Study Guides</a></li>
+        </div>
+      </ul>
+    </nav>
+
+    <div class="main">
+      
+<div id="guidebody-vr">
+ <div class="guide vr-body" style="position: relative;">
+  <img src="dist/images/vr.jpg" class="full-vr VR">
+  <button id="play-trailer" onclick="playFilm('trailer')" class="fas fa-play-circle"></button>
+  <div class="overlay trailer">
+    <button onclick='closeOverlay("trailer")'>Close <i class="fas fa-times"></i></button>
+    <div class="popup">
+      <iframe src="https://player.vimeo.com/video/316306541" width="110%" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+  </div>
+ </div>
+</div>
+<div id="guidenav-vr" class="vr-copy">
+  <h3 class="vr">The VR Experience</h3>
+  <p>
+    SwampScapes, is a sensory immersion into one of Florida's most endangered ecosystems, the
+    Everglades.  The project transports users to seven endangered landscapes - from the treetops of urban swamps to the remote sloughs of the Fakahatchee swamp. As cities grow, wetlands and swamps around the world are sacrificed to pave the way for housing, agriculture and industry without much regard for what is lost. One of the biggest threats to swamps is a lack of understanding of the role they play in capturing carbon, fostering biodiversity, and buffering us from storms and rising seas. 
+      </p>
+      <p>
+        <br>
+        The VR experience is available and free for educators. Please <a class="contactlink" href="mailto:lizmiller.concordia@gmail.com">contact us</a> for access. 
+      </p>
+</div>
+
+    </div>
+
+
+    <footer>
+      <ul>
+        <li id="aboutNavLink"><a href="about.html">About Us</a></li> 
+        <li><a href="mailto:lizmiller.concordia@gmail.com"><i class="fas fa-envelope"></i> Contact us</a></li>
+        <li><a href="https://www.instagram.com/swampscapes/"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://twitter.com/SWAMPSCAPES"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://www.facebook.com/SwampScapes-830043820512266/"><i class="fab fa-facebook"></i></a></li>
+      </ul>
+    </footer>
+
+  </body>
+</html>
